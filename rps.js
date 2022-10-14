@@ -54,7 +54,7 @@ let getPlayerChoice = () =>{
     }
     else{
         console.log('Enter valid choice!');
-        getPlayerChoice();
+        return getPlayerChoice();
     }
     }
     
